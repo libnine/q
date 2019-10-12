@@ -1,7 +1,7 @@
 <template>
   <div id="toolbar">
     <div id="links">
-      <a href="#/home" class="link">home</a> <a href="#/projects" class="link">projects</a> <a href="#/music" class="link">music</a> <a href="#/about" class="link">about</a> <a href="#/contact" class="link">contact</a>
+      <a href="#/" class="link">home</a> <a href="#/projects" class="link">projects</a> <a href="#/music" class="link">music</a> <a href="#/about" class="link">about</a> <a href="#/contact" class="link">contact</a>
     </div>
   </div>
 </template>
