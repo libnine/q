@@ -1,24 +1,52 @@
 <template>
   <div id="contact">
     <div>
-      <a href="https://www.linkedin.com/in/matthew-gorzka-71ba273b" target="_blank">
-        <img src="@/assets/icons/linkedin.png" class="icons">
-        <!-- <figcaption>hey</figcaption> -->
-      </a>
-      <a href="mailto:mgorzk@gmail.com"><img src="@/assets/icons/google.png" class="icons"></a>
-      <a href="https://www.instagram.com/qorka" target="_blank"><img src="@/assets/icons/instagram.png" class="icons"></a>
+      <span class="caps" v-bind:style="{ opacity: linkedin, transition: 'opacity 750ms'}">linkedin</span>
+      <span class="caps" v-bind:style="{ opacity: email, transition: 'opacity 750ms' }">email</span>
+      <span class="caps" v-bind:style="{ opacity: instagram, transition: 'opacity 750ms' }">instagram</span>
     </div>
     <div>
-      <a href="skype:flyingmooze?call"><img src="@/assets/icons/skype.png" class="icons"></a>
-      <a href="https://www.soundcloud.com/libra9" target="_blank"><img src="@/assets/icons/soundcloud.png" class="icons"></a>
-      <a href="https://open.spotify.com/user/21cbiqxy6eaq25n3dk3qkzj6a" target="_blank"><img src="@/assets/icons/spotify.png" class="icons"></a>
+      <a href="https://www.linkedin.com/in/matthew-gorzka-71ba273b" target="_blank">
+        <img src="@/assets/icons/linkedin.png" class="icons" @mouseover="linkedin='1'" @mouseleave="linkedin='0'">
+      </a>
+      <a href="mailto:mgorzk@gmail.com">
+        <img src="@/assets/icons/google.png" class="icons" @mouseover="email='1'" @mouseleave="email='0'">
+      </a>
+      <a href="https://www.instagram.com/qorka" target="_blank">
+        <img src="@/assets/icons/instagram.png" class="icons" @mouseover="instagram='1'" @mouseleave="instagram='0'">
+      </a>
+    </div>
+    <div>
+      <span class="capstwo" v-bind:style="{ opacity: skype, transition: 'opacity 750ms' }">skype</span>
+      <span class="capstwo" v-bind:style="{ opacity: soundcloud, transition: 'opacity 750ms' }">soundcloud</span>
+      <span class="capstwo" v-bind:style="{ opacity: spotify, transition: 'opacity 750ms' }">spotify</span>
+    </div>
+    <div>
+      <a href="skype:flyingmooze?call">
+        <img src="@/assets/icons/skype.png" class="icons" @mouseover="skype='1'" @mouseout="skype='0'">
+      </a>
+      <a href="https://www.soundcloud.com/libra9" target="_blank">
+        <img src="@/assets/icons/soundcloud.png" class="icons" @mouseover="soundcloud='1'" @mouseout="soundcloud='0'">
+      </a>
+      <a href="https://open.spotify.com/user/21cbiqxy6eaq25n3dk3qkzj6a" target="_blank">
+        <img src="@/assets/icons/spotify.png" class="icons" @mouseover="spotify='1'" @mouseout="spotify='0'">
+      </a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  
+  data () {
+    return {
+      linkedin: 0,
+      email: 0,
+      instagram: 0,
+      skype: 0,
+      soundcloud: 0,
+      spotify: 0
+    }
+  }
 }
 </script>
 
@@ -33,6 +61,20 @@ export default {
   margin: 25px;
   padding: 10px;
   width: 125px;
+}
+
+.caps {
+  color:dodgerblue;
+  font-size: 16px;
+  padding: 13px;
+  margin: 50px;
+}
+
+.capstwo {
+  color:dodgerblue;
+  font-size: 16px;
+  padding: 5px;
+  margin: 50px;
 }
 
 </style>

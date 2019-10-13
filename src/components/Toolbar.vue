@@ -38,7 +38,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/contact">contact
+        <a class="btn" href="#/contact">connect
             <svg class="button-stroke" viewBox="0 2 154 13">
                 <use href="#line"></use>
             </svg>
