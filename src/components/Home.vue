@@ -1,12 +1,12 @@
 <template>
-<div>
   <div>
-    <hello />
+    <div id="content">
+      <hello />
+    </div>
+    <div>
+      <h3></h3>
+    </div>
   </div>
-  <div id="content">
-    <h1>hay</h1>
-  </div>
-</div>
 </template>
 
 <script>
@@ -29,13 +29,19 @@ export default {
 
 <style scoped>
 body {
-  display: inline;
-  block: 0;
+  display: inline-block;
+  margin: 0;
+  font-weight: 200;
+  font-size: 16;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 16;
 }
 
 #content {
-  position: absolute;
-  top: 250px;
+  padding-top: 10px;
 }
 
 </style>

@@ -1,7 +1,51 @@
 <template>
-  <div id="toolbar">
-    <div id="links">
-      <a href="#/" class="link">home</a> <a href="#/projects" class="link">projects</a> <a href="#/music" class="link">music</a> <a href="#/about" class="link">about</a> <a href="#/contact" class="link">contact</a>
+  <div id="tb">
+    <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+        <defs>
+            <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+        </defs>
+    </svg>
+    <div class="container">
+        <a class="btn" href="#/">home
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+        </a>
+        <a class="btn" href="#/projects">projects
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+        </a>
+        <a class="btn" href="#/music">music
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+        </a>
+        <a class="btn" href="#/about">about
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+        </a>
+        <a class="btn" href="#/contact">contact
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+            <svg class="button-stroke" viewBox="0 0 154 13">
+                <use href="#line"></use>
+            </svg>
+        </a>
     </div>
   </div>
 </template>
@@ -12,43 +56,48 @@ export default {
 }
 </script>
 
-<style scoped>
-.link {
-	font-size: 20px;
-	font-weight: 500;
+<style lang="scss" scoped>
+body {
+    font-size: 16px;
+}
 
+.btn {
+    font-size: 16px;
+	display: inline-block;
+	color: white;
+	min-width: 155px;
 	text-decoration: none;
-	text-transform: lowercase;
-
+	margin-right: 5px;
+	padding: 15px;
 	position: relative;
-	z-index: 1;
-	display: inline-flex;
-	padding: 20px;
-}
-
-.link::before{
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-image: linear-gradient(to top, rgba(71, 61, 139, 0.856) 5%, rgba(0, 0, 0, 0) 30%);
+	text-align: center;
 	
+	&:hover {
+		.button-stroke:nth-child(2) {
+			stroke-dashoffset: 25;
+		}
+        text-decoration: none;
+        
+	}
+}
+
+.button-stroke {
+	display: block;
+	width: calc(100% - 40px);
+	height: 25px;
+	stroke: darkslateblue;
 	position: absolute;
-	left: 0;
-	bottom: 2px;
-	z-index: -1;
-
-	will-change: width;
-	transform: rotate(-3deg);
-	transform-origin: left bottom;
-	transition: width .1s ease-out;
+	left: 20px;
+	bottom: -10px;
+	stroke-width: 4;
+	
+	&:nth-child(2) {
+		stroke-dasharray: 650px;
+		stroke-dashoffset: 650px;
+		stroke: darken(dodgerblue, 10%);
+		stroke-width: 5;
+		transition: stroke-dashoffset 600ms ease-out;
+	}
 }
 
-.link:hover {
-	text-decoration: none;
-}
-
-.link:hover::before {
-	width: 0;
-	transition-duration: .15s;
-}
 </style>

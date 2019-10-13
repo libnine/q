@@ -1,14 +1,13 @@
 <template>
-  <div>
+  <div id="default">
     <div class="content">
       <div class="content__container">
         <p class="content__container__text">Hello</p>
-        
         <ul class="content__container__list">
           <li class="content__container__list__item">world!</li>
+          <li class="content__container__list__item">everybody!</li>
           <li class="content__container__list__item">friends!</li>
           <li class="content__container__list__item">earthlings!</li>
-          <li class="content__container__list__item">everybody!</li>
         </ul>
       </div>
     </div>
@@ -28,25 +27,21 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  width: 100%;
-  height: 100%;
-  position: fixed;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 150px;
+  display: inline-block;
+  margin: 0;
   overflow: hidden;
-  
+  transform: translate(-50%, -50%);
   font-size: 35px;
   line-height: 40px;
   color:rgba(30, 143, 255, 0.822);
   
   &__container {
-    font-weight: 600;
+    font-weight: 500;
     overflow: hidden;
     height: 40px;
     padding: 0 40px;
@@ -58,7 +53,6 @@ body {
 
     &:after {
       content: ']';
-      position: absolute;
       right: 0;
     }
 
@@ -160,4 +154,11 @@ body {
   66.64%,79.3% {transform:translate3d(0,-50%,0);}
   83.3%,95.96% {transform:translate3d(0,-25%,0);}
 }
+
+#default {
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 350px;
+}
+
 </style>

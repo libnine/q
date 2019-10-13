@@ -59,9 +59,9 @@ export default {
 
 #tb {
   align-content: center;
-  padding: 2px;
+  padding: 1px;
   height: 100%;
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 </style>
