@@ -68,17 +68,17 @@ body {
 	min-width: 155px;
 	text-decoration: none;
 	margin-right: 5px;
-	padding: 15px;
+	padding: 10px;
 	position: relative;
 	text-align: center;
 	
 	&:hover {
 		.button-stroke:nth-child(2) {
-			stroke-dashoffset: 25;
+			stroke-dashoffset: 55;
 		}
 
         .url {
-            color:plum;
+            color: rgba(71, 61, 139, 0.801);
             font-weight: 700;
             transition: font-weight 100ms ease-out;
         }
@@ -90,9 +90,9 @@ body {
 
 .button-stroke {
 	display: block;
-	width: calc(100% - 40px);
+	width: calc(100% - 50px);
 	height: 25px;
-	stroke: darkslateblue;
+	stroke: rgba(71, 61, 139, 0.801);
 	position: absolute;
 	left: 20px;
 	bottom: -10px;

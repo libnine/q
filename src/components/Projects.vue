@@ -1,26 +1,48 @@
 <template>
   <div id="app">
     <div class="box">
-      <div class="column">
+      <div class="column-letter">
         <div class="l">
-          <span class="letter">I</span><a href="#">Intuit</a>
+          <span class="letter">I</span>
         </div>
         <div class="l">
-          <span class="letter">G</span><a href="#">Goodwill</a>
+          <span class="letter">G</span>
         </div>
         <div class="l">
-          <span class="letter">S</span><a href="#">SCF</a>
+          <span class="letter">S</span>
         </div>
       </div>
       <div class="column">
         <div class="l">
-          <span class="letter">S</span><a href="#">Spu</a>
+          <a href="#">Intuit</a>
         </div>
         <div class="l">
-          <span class="letter">O</span><a href="#">Ornet</a>
+          <a href="#">Goodwill</a>
         </div>
         <div class="l">
-          <span class="letter">M</span><a href="#">Malgo</a>
+          <a href="#">SCF</a>
+        </div>
+      </div>
+      <div class="column-letter">
+        <div class="l">
+          <span class="letter">S</span>
+        </div>
+        <div class="l">
+          <span class="letter">O</span>
+        </div>
+        <div class="l">
+          <span class="letter">M</span>
+        </div>
+      </div>
+      <div class="column">
+        <div class="l">
+          <a href="#">Spu</a>
+        </div>
+        <div class="l">
+          <a href="#">Ornet</a>
+        </div>
+        <div class="l">
+          <a href="#">Malgo</a>
         </div>
       </div>
     </div>
@@ -34,6 +56,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap');
+
 #app {
   width:1000px;
   margin:100px auto;
@@ -53,7 +77,7 @@ a:after, a:visited:after {
   bottom: 0;
   left: 0;
   width: 0%;
-  background: #069;
+  background: rgba(71, 61, 139, 0.801);
   transition: 0.2s;
 }
 
@@ -89,12 +113,17 @@ body {
   width: 80%;
 }
 
-
-
 .column {
   display: inline-block;
   margin: 0;
-  width: 20%;
+  width: 200px;
+}
+
+.column-letter {
+  display: inline-block;
+  margin: 0;
+  text-align: left;
+  width: 5%;
 }
 
 .l {
@@ -103,7 +132,10 @@ body {
 }
 
 .letter {
-  font-size: 24px;
+  color:rgba(71, 61, 139, 0.589);
+  font-family: 'Euphoria Script', cursive;
+  font-size: 30px;
+  font-weight: 600;
   text-align: left;
   margin: 20px;
   padding: 5%;
