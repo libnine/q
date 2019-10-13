@@ -3,24 +3,24 @@
     <div class="box">
       <div class="column">
         <div class="l">
-          <a href="#">Intuit</a>
+          <span class="letter">I</span><a href="#">Intuit</a>
         </div>
         <div class="l">
-          <a href="#">Goodwill</a>
+          <span class="letter">G</span><a href="#">Goodwill</a>
         </div>
         <div class="l">
-          <a href="#">SCF</a>
+          <span class="letter">S</span><a href="#">SCF</a>
         </div>
       </div>
       <div class="column">
         <div class="l">
-          <a href="#">Spu</a>
+          <span class="letter">S</span><a href="#">Spu</a>
         </div>
         <div class="l">
-          <a href="#">Ornet</a>
+          <span class="letter">O</span><a href="#">Ornet</a>
         </div>
         <div class="l">
-          <a href="#">Malgo</a>
+          <span class="letter">M</span><a href="#">Malgo</a>
         </div>
       </div>
     </div>
@@ -34,13 +34,45 @@ export default {
 </script>
 
 <style scoped>
-a {
-  font-size: 48px;
-}
-
 #app {
   width:1000px;
   margin:100px auto;
+}
+
+a, a:visited {
+  color: dodgerblue;
+  font-size: 24px;
+  position: relative;
+  text-decoration: none;
+}
+
+a:after, a:visited:after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background: #069;
+  transition: 0.2s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover:after, a:visited:hover:after {
+  text-decoration: none;
+  width: 100%;
+}
+
+a.block, a:visited.block {
+  display: block;
+  padding: 0.5em;
+}
+
+a.block:hover, a:visited.block:hover {
+  background: #eee;
 }
 
 body {
@@ -57,15 +89,24 @@ body {
   width: 80%;
 }
 
+
+
 .column {
   display: inline-block;
   margin: 0;
-  width: 25%;
+  width: 20%;
 }
 
 .l {
   margin: 50px;
   text-align: left;
+}
+
+.letter {
+  font-size: 24px;
+  text-align: left;
+  margin: 20px;
+  padding: 5%;
 }
 
 </style>

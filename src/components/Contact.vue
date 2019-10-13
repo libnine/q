@@ -1,9 +1,9 @@
 <template>
   <div id="contact">
     <div>
-      <span class="caps" v-bind:style="{ opacity: linkedin, transition: 'opacity 750ms'}">linkedin</span>
-      <span class="caps" v-bind:style="{ opacity: email, transition: 'opacity 750ms' }">email</span>
-      <span class="caps" v-bind:style="{ opacity: instagram, transition: 'opacity 750ms' }">instagram</span>
+      <span class="caps" v-bind:style="{ opacity: linkedin, transition: 'opacity 750ms'}">{{ linkedin_text }}</span>
+      <span class="caps" v-bind:style="{ opacity: email, transition: 'opacity 750ms' }">{{ email_text }}</span>
+      <span class="caps" v-bind:style="{ opacity: instagram, transition: 'opacity 750ms' }">{{ instagram_text }}</span>
     </div>
     <div>
       <a href="https://www.linkedin.com/in/matthew-gorzka-71ba273b" target="_blank">
@@ -17,9 +17,9 @@
       </a>
     </div>
     <div>
-      <span class="capstwo" v-bind:style="{ opacity: skype, transition: 'opacity 750ms' }">skype</span>
-      <span class="capstwo" v-bind:style="{ opacity: soundcloud, transition: 'opacity 750ms' }">soundcloud</span>
-      <span class="capstwo" v-bind:style="{ opacity: spotify, transition: 'opacity 750ms' }">spotify</span>
+      <span class="capstwo" v-bind:style="{ opacity: skype, transition: 'opacity 750ms' }">{{ skype_text }}</span>
+      <span class="capstwo" v-bind:style="{ opacity: soundcloud, transition: 'opacity 750ms' }">{{ soundcloud_text }}</span>
+      <span class="capstwo" v-bind:style="{ opacity: spotify, transition: 'opacity 750ms' }">{{ spotify_text }}</span>
     </div>
     <div>
       <a href="skype:flyingmooze?call">
@@ -40,11 +40,17 @@ export default {
   data () {
     return {
       linkedin: 0,
+      linkedin_text: 'linkedin',
       email: 0,
+      email_text: 'email',
       instagram: 0,
+      instagram_text: 'instagram',
       skype: 0,
+      skype_text: 'skype',
       soundcloud: 0,
-      spotify: 0
+      soundcloud_text: 'soundcloud',
+      spotify: 0,
+      spotify_text: 'spotify'
     }
   }
 }

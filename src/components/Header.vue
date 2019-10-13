@@ -14,16 +14,16 @@ export default {
 </script>
 
 <style scoped>
-  #name {
-    text-decoration: none;
-    font-size: 96px;
-  }
+#name {
+  text-decoration: none;
+  font-size: 96px;
+}
 
-  #firstname {
-    color:darkslateblue
-  }
+#firstname {
+  color:darkslateblue
+}
 
-  #lastname {
-    color:dodgerblue
-  }
+#lastname {
+  color:dodgerblue
+}
 </style>

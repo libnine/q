@@ -6,7 +6,7 @@
         </defs>
     </svg>
     <div class="container">
-        <a class="btn" href="#/">home
+        <a class="btn" href="#/"><span class="url">home</span>
             <svg class="button-stroke" viewBox="0 2 131 13">
                 <use href="#line"></use>
             </svg>
@@ -14,7 +14,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/projects">projects
+        <a class="btn" href="#/projects"><span class="url">projects</span>
             <svg class="button-stroke" viewBox="0 2 154 13">
                 <use href="#line"></use>
             </svg>
@@ -22,7 +22,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/music">music
+        <a class="btn" href="#/music"><span class="url">music</span>
             <svg class="button-stroke" viewBox="0 2 130 13">
                 <use href="#line"></use>
             </svg>
@@ -30,7 +30,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/about">about
+        <a class="btn" href="#/about"><span class="url">about</span>
             <svg class="button-stroke" viewBox="0 2 170 13">
                 <use href="#line"></use>
             </svg>
@@ -38,7 +38,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/contact">connect
+        <a class="btn" href="#/contact"><span class="url">connect</span>
             <svg class="button-stroke" viewBox="0 2 154 13">
                 <use href="#line"></use>
             </svg>
@@ -76,8 +76,15 @@ body {
 		.button-stroke:nth-child(2) {
 			stroke-dashoffset: 25;
 		}
+
+        .url {
+            color:plum;
+            font-weight: 700;
+            transition: font-weight 100ms ease-out;
+        }
+
         text-decoration: none;
-        
+
 	}
 }
 
@@ -98,6 +105,10 @@ body {
 		stroke-width: 5;
 		transition: stroke-dashoffset 600ms ease-out;
 	}
+}
+
+.url {
+    font-weight: 100;
 }
 
 </style>
