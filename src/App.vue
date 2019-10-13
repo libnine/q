@@ -40,7 +40,7 @@ export default {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
@@ -62,6 +62,6 @@ export default {
   padding: 1px;
   height: 100%;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 </style>

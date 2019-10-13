@@ -7,15 +7,15 @@
     </svg>
     <div class="container">
         <a class="btn" href="#/">home
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 2 131 13">
                 <use href="#line"></use>
             </svg>
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 0 101 13">
                 <use href="#line"></use>
             </svg>
         </a>
         <a class="btn" href="#/projects">projects
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 2 154 13">
                 <use href="#line"></use>
             </svg>
             <svg class="button-stroke" viewBox="0 0 154 13">
@@ -23,7 +23,7 @@
             </svg>
         </a>
         <a class="btn" href="#/music">music
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 2 130 13">
                 <use href="#line"></use>
             </svg>
             <svg class="button-stroke" viewBox="0 0 154 13">
@@ -31,7 +31,7 @@
             </svg>
         </a>
         <a class="btn" href="#/about">about
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 2 170 13">
                 <use href="#line"></use>
             </svg>
             <svg class="button-stroke" viewBox="0 0 154 13">
@@ -39,7 +39,7 @@
             </svg>
         </a>
         <a class="btn" href="#/contact">contact
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 2 154 13">
                 <use href="#line"></use>
             </svg>
             <svg class="button-stroke" viewBox="0 0 154 13">
