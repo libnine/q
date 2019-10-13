@@ -15,6 +15,7 @@ export default {
 
 <style scoped>
   #name {
+    text-decoration: none;
     font-size: 96px;
   }
 
