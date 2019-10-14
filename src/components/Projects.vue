@@ -36,7 +36,7 @@
       </div>
       <div class="column">
         <div class="l">
-          <a href="#">Spu</a>
+          <a href="#/spu">Spu</a>
         </div>
         <div class="l">
           <a href="#">Ornet</a>
@@ -108,15 +108,15 @@ body {
 }
 
 .box {
-  margin:auto;
+  margin: 0 auto;
   text-align: center;
-  width: 80%;
+  width: 75%;
 }
 
 .column {
   display: inline-block;
   margin: 0;
-  width: 200px;
+  width: 180px;
 }
 
 .column-letter {
@@ -132,7 +132,7 @@ body {
 }
 
 .letter {
-  color:rgba(71, 61, 139, 0.589);
+  color:rgba(71, 61, 139, 0.438);
   font-family: 'Euphoria Script', cursive;
   font-size: 30px;
   font-weight: 600;

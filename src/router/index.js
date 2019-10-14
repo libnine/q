@@ -1,14 +1,21 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
+import About from '@/components/About'
 import Contact from '@/components/Contact'
+import Home from '@/components/Home'
 import Music from '@/components/Music'
 import Projects from '@/components/Projects'
+import Spu from '@/components/Spu'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {
+      path: '/about',
+      name: 'About',
+      component: About
+    },
     {
       path: '/',
       name: 'Home',
@@ -28,6 +35,11 @@ export default new Router({
       path: '/projects',
       name: 'Projects',
       component: Projects
+    },
+    {
+      path:'/spu',
+      name: 'Spu',
+      component: Spu
     }
   ]
 })
