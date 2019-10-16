@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
   display: inline-block;
@@ -37,14 +38,15 @@ body {
   margin: 0;
   overflow: hidden;
   transform: translate(-50%, -50%);
-  font-size: 35px;
+  font-size: 34px;
+  font-family: 'Montserrat', sans-serif;
   line-height: 40px;
   color:rgba(30, 143, 255, 0.822);
   
   &__container {
-    font-weight: 500;
+    font-weight: 400;
     overflow: hidden;
-    height: 40px;
+    height: 44px;
     padding: 0 40px;
 
     &:before {

@@ -57,6 +57,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 #contact {
   color: darkslateblue;
   justify-content: center;
@@ -71,14 +73,16 @@ export default {
 
 .caps {
   color:dodgerblue;
-  font-size: 16px;
-  padding: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding: 10px;
   margin: 50px;
 }
 
 .capstwo {
   color:dodgerblue;
-  font-size: 16px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;  
   padding: 5px;
   margin: 50px;
 }

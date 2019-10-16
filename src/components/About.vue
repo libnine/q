@@ -8,7 +8,8 @@
     <div class="column">
       <p>
         I'm a seasoned software developer who has developed various products for clients such as Intuit, Goodwill Industries, and others.<br><br>
-        I have done work in software development, data warehousing, ETL development, front & backend web development, database/server management, and algorithmic trading.
+        I have done work in software development, data warehousing, ETL development, front & backend web development, database/server management, and algorithmic trading.<br><br>
+        I started my career in finance.
       </p>
     </div>
   </div>
