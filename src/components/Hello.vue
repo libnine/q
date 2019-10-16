@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 body {
   display: inline-block;
   margin: 0 auto;

@@ -57,6 +57,7 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 #app {
   width:1000px;
@@ -102,6 +103,7 @@ a.block:hover, a:visited.block:hover {
 body {
   display: inline-block;
   margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 16px;
   padding: 10px;

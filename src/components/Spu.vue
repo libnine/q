@@ -20,6 +20,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 a, a:visited {
   color: dodgerblue;
   font-size: 16px;
@@ -73,6 +75,7 @@ a.block:hover, a:visited.block:hover {
 }
 
 p {
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   text-align: left;
 }
