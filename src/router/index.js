@@ -5,6 +5,7 @@ import Contact from '@/components/Contact'
 import Goodwill from '@/components/Goodwill'
 import Home from '@/components/Home'
 import Intuit from '@/components/Intuit'
+import Malgo from '@/components/Malgo'
 import Music from '@/components/Music'
 import Ornet from '@/components/Ornet'
 import Projects from '@/components/Projects'
@@ -39,6 +40,11 @@ export default new Router({
       path: '/intuit',
       name: 'Intuit',
       component: Intuit
+    },
+    {
+      path: '/malgo',
+      name: 'Malgo',
+      component: Malgo
     },
     {
       path: '/music',

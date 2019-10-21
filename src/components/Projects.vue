@@ -14,10 +14,10 @@
       </div>
       <div class="column">
         <div class="l">
-          <a href="#">Intuit</a>
+          <a href="#/intuit">Intuit</a>
         </div>
         <div class="l">
-          <a href="#">Goodwill</a>
+          <a href="#/goodwill">Goodwill</a>
         </div>
         <div class="l">
           <a href="#/scf">SCF</a>
@@ -42,7 +42,7 @@
           <a href="#/ornet">Ornet</a>
         </div>
         <div class="l">
-          <a href="#">Malgo</a>
+          <a href="#/malgo">Malgo</a>
         </div>
       </div>
     </div>
