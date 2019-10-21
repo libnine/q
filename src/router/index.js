@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import Goodwill from '@/components/Goodwill'
 import Home from '@/components/Home'
+import Intuit from '@/components/Intuit'
 import Music from '@/components/Music'
 import Ornet from '@/components/Ornet'
 import Projects from '@/components/Projects'
@@ -19,14 +21,24 @@ export default new Router({
       component: About
     },
     {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
+    },
+    {
+      path: '/goodwill',
+      name: 'Goodwill',
+      component: Goodwill,
+    },
+    {
       path: '/',
       name: 'Home',
       component: Home
     },
     {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact
+      path: '/intuit',
+      name: 'Intuit',
+      component: Intuit
     },
     {
       path: '/music',
