@@ -2,13 +2,14 @@
   <div id="box">
     <div class="column">
       <p>
-        Spu, also known as <i>spoo</i>, is a contract for the S&P 500 which trades on the Chicago Mercantile Exchange.<br><br>
-        Spu is a CLI (command line interface) that pulls securities data from various sources. It was developed in Go & Python.<br><br>
-        Use spu to access short interest, earnings dates, headlines, robinhood data, options data, trending tickers, upcoming economic events, and more.
+        Ornet, which stands for <i>Or</i>thopedic <i>Net</i>work, is an application designed for hospitals in efforts to 
+        make communication with vendors seamless, organized, and easy.<br><br>
+        The application is still in development, with most of the work needing to be finished on the frontend. Ornet's backend was made with Go which is containerized in Docker. The data is stored in Mongo with the frontend being developed in Vue.<br><br>
+        Understanding the intricacies of the business has been key throughout this project. Our architecture is <a href="https://digitalguardian.com/blog/what-hipaa-compliance" target="_blank">HIPAA compliant</a>.
       </p>
     </div>
     <div id="git">
-      <a href="https://www.github.com/libnine/spu" target="_blank">github</a>
+      <a href="https://www.github.com/libnine/ornet" target="_blank">github</a>
     </div>
   </div>
 </template>
@@ -71,7 +72,7 @@ a.block:hover, a:visited.block:hover {
 }
 
 #git {
-  padding: 10%;
+  padding: 5%;
 }
 
 p {

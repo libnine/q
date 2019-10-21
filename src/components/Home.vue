@@ -41,7 +41,7 @@ h3 {
 }
 
 #content {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 </style>

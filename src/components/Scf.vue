@@ -2,13 +2,14 @@
   <div id="box">
     <div class="column">
       <p>
-        Spu, also known as <i>spoo</i>, is a contract for the S&P 500 which trades on the Chicago Mercantile Exchange.<br><br>
-        Spu is a CLI (command line interface) that pulls securities data from various sources. It was developed in Go & Python.<br><br>
-        Use spu to access short interest, earnings dates, headlines, robinhood data, options data, trending tickers, upcoming economic events, and more.
-      </p>
+        SCF, which stands for <i>S</i>ports <i>C</i>ards <i>F</i>orever, is a privately owned company from Chicago that buys and sells vintage sports cards.<br><br>
+        I developed and maintained the backend architecture and processes, along including web apps designed for internal use by key employees. 
+        This involved development with Python, AWS, Azure, and SQL Server. A few APIs were used to retrieve pricing on items, as well as delivery services.<br><br>
+        The project offered great exposure to a unique business and allowed me free rein in using creative ways to make the system more efficient.
+     </p>
     </div>
     <div id="git">
-      <a href="https://www.github.com/libnine/spu" target="_blank">github</a>
+      <a href="https://www.github.com/libnine/scf" target="_blank">github</a>
     </div>
   </div>
 </template>
@@ -71,7 +72,7 @@ a.block:hover, a:visited.block:hover {
 }
 
 #git {
-  padding: 10%;
+  padding: 5%;
 }
 
 p {

@@ -20,7 +20,7 @@
           <a href="#">Goodwill</a>
         </div>
         <div class="l">
-          <a href="#">SCF</a>
+          <a href="#/scf">SCF</a>
         </div>
       </div>
       <div class="column-letter">
@@ -39,7 +39,7 @@
           <a href="#/spu">Spu</a>
         </div>
         <div class="l">
-          <a href="#">Ornet</a>
+          <a href="#/ornet">Ornet</a>
         </div>
         <div class="l">
           <a href="#">Malgo</a>
