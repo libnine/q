@@ -1,37 +1,37 @@
 <template>
   <div id="tb">
-    <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <svg id="stroke" width="0" height="0">
         <defs>
             <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
         </defs>
     </svg>
     <div class="container">
         <a class="btn" href="#/"><span class="url">home</span>
-            <svg class="button-stroke" viewBox="0 2 131 13">
+            <svg class="button-stroke" viewBox="0 2 101 3">
                 <use href="#line"></use>
             </svg>
-            <svg class="button-stroke" viewBox="0 0 101 13">
+            <svg class="button-stroke" viewBox="0 1 101 13">
                 <use href="#line"></use>
             </svg>
         </a>
         <a class="btn" href="#/projects"><span class="url">projects</span>
-            <svg class="button-stroke" viewBox="0 2 154 13">
+            <svg class="button-stroke" viewBox="0 2 120 1">
                 <use href="#line"></use>
             </svg>
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 0 154 10">
                 <use href="#line"></use>
             </svg>
         </a>
         <a class="btn" href="#/music"><span class="url">music</span>
-            <svg class="button-stroke" viewBox="0 2 130 13">
+            <svg class="button-stroke" viewBox="0 2 115 2">
                 <use href="#line"></use>
             </svg>
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 0 150 11">
                 <use href="#line"></use>
             </svg>
         </a>
         <a class="btn" href="#/about"><span class="url">about</span>
-            <svg class="button-stroke" viewBox="0 2 170 13">
+            <svg class="button-stroke" viewBox="0 2 170 7">
                 <use href="#line"></use>
             </svg>
             <svg class="button-stroke" viewBox="0 0 154 13">
@@ -39,10 +39,10 @@
             </svg>
         </a>
         <a class="btn" href="#/contact"><span class="url">connect</span>
-            <svg class="button-stroke" viewBox="0 2 154 13">
+            <svg class="button-stroke" viewBox="0 1 85 8">
                 <use href="#line"></use>
             </svg>
-            <svg class="button-stroke" viewBox="0 0 154 13">
+            <svg class="button-stroke" viewBox="0 0 140 13">
                 <use href="#line"></use>
             </svg>
         </a>

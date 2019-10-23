@@ -111,6 +111,7 @@ body {
 
 .box {
   margin: 0 auto;
+  padding-right: 50px;
   text-align: center;
   width: 75%;
 }
@@ -118,7 +119,7 @@ body {
 .column {
   display: inline-block;
   margin: 0;
-  width: 180px;
+  width: 150px;
 }
 
 .column-letter {

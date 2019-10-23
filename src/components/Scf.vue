@@ -3,7 +3,7 @@
     <div class="column">
       <p>
         SCF, which stands for <i>S</i>ports <i>C</i>ards <i>F</i>orever, is a privately owned company from Chicago that buys and sells vintage sports cards.<br><br>
-        I developed and maintained the backend architecture and processes, along including web apps designed for internal use by key employees. 
+        I developed and maintained the backend architecture and processes, including web apps designed for internal use by key employees. 
         This involved development with Python, AWS, Azure, and SQL Server. A few APIs were used to retrieve pricing on items, as well as delivery services.<br><br>
         The project offered great exposure to a unique business and allowed me free rein in using creative ways to make the system more efficient.
      </p>

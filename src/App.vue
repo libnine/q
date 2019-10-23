@@ -62,6 +62,6 @@ export default {
   padding: 1px;
   height: 100%;
   width: 100%;
-  padding-bottom: 70px;
+  padding-bottom: 55px;
 }
 </style>
