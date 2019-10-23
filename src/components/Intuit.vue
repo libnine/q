@@ -2,7 +2,10 @@
   <div id="box">
     <div class="column">
       <p>
-        
+        TurboTax, Quickbooks, Mint... all owned by <a href="https://www.intuit.com" target="_blank">Intuit</a>.<br><br>
+        I joined the Intuit project in May, and i'm happy to still be part of the team. My responsibilities have slightly changed over the months. I started as part of the  <i>S</i>mall <i>B</i>usiness <i>G</i>roup, and within that department, I focused my time on data related to Quickbooks customer service agents.<br><br>
+        The agent data was held with a third party, and to retrieve that data we used their API, which ultimately involved scheduling python scripts to dump responses to JSON files to folders on a server. These files would later be moved to an S3 bucket once they were loaded to the Vertica database.<br><br>
+        After my work was completed with SBG Quickbooks, I spent my time working on optimizing backend processes, mostly scheduled shell & python scripts running on a linux instance.<br><br>
       </p>
     </div>
     <div id="git">
