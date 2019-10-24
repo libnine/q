@@ -21,7 +21,7 @@ export default {
   },
 
   created() {
-    document.title = 'Matt Gorzka'
+    // document.title = 'Matt Gorzka'
   },
 
   name: 'App'

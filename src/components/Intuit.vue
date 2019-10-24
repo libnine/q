@@ -3,13 +3,14 @@
     <div class="column">
       <p>
         TurboTax, Quickbooks, Mint... all owned by <a href="https://www.intuit.com" target="_blank">Intuit</a>.<br><br>
-        I joined the Intuit project in May, and i'm happy to still be part of the team. My responsibilities have slightly changed over the months. I started as part of the  <i>S</i>mall <i>B</i>usiness <i>G</i>roup, and within that department, I focused my time on data related to Quickbooks customer service agents.<br><br>
-        The agent data was held with a third party, and to retrieve that data we used their API, which ultimately involved scheduling python scripts to dump responses to JSON files to folders on a server. These files would later be moved to an S3 bucket once they were loaded to the Vertica database.<br><br>
-        After my work was completed with SBG Quickbooks, I spent my time working on optimizing backend processes, mostly scheduled shell & python scripts running on a linux instance.<br><br>
+        I joined the Intuit project in May, and i'm happy to still be part of the team. My role has slightly changed over the months. I started as part of the <i>S</i>mall <i>B</i>usiness <i>G</i>roup, and within that department, I focused my time on data related to Quickbooks customer service agents. 
+        The agent data was mostly held with a third party service. To retrieve this data, we used their API, which ultimately involved scheduling python scripts to dump responses into JSON files. These files would later be moved to an S3 bucket once they were loaded into the Vertica database.<br><br>
+        After my work was completed with SBG Quickbooks, I spent my time working on optimizing backend processes, mostly shell scripts & python scripts being scheduled on a linux instance.<br><br>
+        My role has recently transitioned to <i>C</i>onsumer <i>G</i>roup. CG involves data related to TurboxTax managers and agents. Similar to SBG, agent activity is warehoused in Vertica. This role involves maintaining various Tableau reports and data sources.
       </p>
     </div>
     <div id="git">
-      <i>github repo unavailable</i>
+      <i>github repo is private</i>
     </div>
   </div>
 </template>
@@ -62,17 +63,18 @@ a.block:hover, a:visited.block:hover {
 #box {
   margin: 0 auto;
   text-align: center;
-  width: 50%;
+  width: 75%;
 }
 
 .column {
   display: inline-block;
   margin: 0;
-  width: 400px;
+  width: 700px;
+  margin-left: 2.5%;
 }
 
 #git {
-  padding: 5%;
+  padding: 2.5%;
 }
 
 p {

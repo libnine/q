@@ -161,7 +161,7 @@ body {
 #default {
   display: inline-block;
   margin: 0 auto;
-  margin-left: 350px;
+  margin-left: 25%;
 }
 
 </style>

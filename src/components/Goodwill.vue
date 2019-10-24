@@ -6,7 +6,7 @@
       </p>
     </div>
     <div id="git">
-      <i>github repo unavailable</i>
+      <i>github repo is private</i>
     </div>
   </div>
 </template>

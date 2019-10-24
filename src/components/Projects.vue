@@ -111,7 +111,7 @@ body {
 
 .box {
   margin: 0 auto;
-  padding-right: 50px;
+  padding-right: 5%;
   text-align: center;
   width: 75%;
 }

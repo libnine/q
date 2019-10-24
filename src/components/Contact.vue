@@ -1,11 +1,6 @@
 <template>
   <div id="contact">
     <div>
-      <span class="caps" v-bind:style="{ opacity: linkedin, transition: 'opacity 750ms'}">{{ linkedin_text }}</span>
-      <span class="caps" v-bind:style="{ opacity: email, transition: 'opacity 750ms' }">{{ email_text }}</span>
-      <span class="caps" v-bind:style="{ opacity: instagram, transition: 'opacity 750ms' }">{{ instagram_text }}</span>
-    </div>
-    <div>
       <a href="https://www.linkedin.com/in/matthew-gorzka-71ba273b" target="_blank">
         <img src="@/assets/icons/linkedin.png" class="icons" @mouseover="linkedin='1'" @mouseleave="linkedin='0'">
       </a>
@@ -17,9 +12,9 @@
       </a>
     </div>
     <div>
-      <span class="capstwo" v-bind:style="{ opacity: skype, transition: 'opacity 750ms' }">{{ skype_text }}</span>
-      <span class="capstwo" v-bind:style="{ opacity: soundcloud, transition: 'opacity 750ms' }">{{ soundcloud_text }}</span>
-      <span class="capstwo" v-bind:style="{ opacity: spotify, transition: 'opacity 750ms' }">{{ spotify_text }}</span>
+      <span class="caps" v-bind:style="{ opacity: linkedin, transition: 'opacity 750ms'}">{{ linkedin_text }}</span>
+      <span class="caps" v-bind:style="{ opacity: email, transition: 'opacity 750ms' }">{{ email_text }}</span>
+      <span class="caps" v-bind:style="{ opacity: instagram, transition: 'opacity 750ms' }">{{ instagram_text }}</span>
     </div>
     <div>
       <a href="skype:flyingmooze?call">
@@ -31,6 +26,11 @@
       <a href="https://open.spotify.com/user/21cbiqxy6eaq25n3dk3qkzj6a" target="_blank">
         <img src="@/assets/icons/spotify.png" class="icons" @mouseover="spotify='1'" @mouseout="spotify='0'">
       </a>
+    </div>
+    <div>
+      <span class="capstwo" v-bind:style="{ opacity: skype, transition: 'opacity 750ms' }">{{ skype_text }}</span>
+      <span class="capstwo" v-bind:style="{ opacity: soundcloud, transition: 'opacity 750ms' }">{{ soundcloud_text }}</span>
+      <span class="capstwo" v-bind:style="{ opacity: spotify, transition: 'opacity 750ms' }">{{ spotify_text }}</span>
     </div>
   </div>
 </template>
@@ -66,9 +66,9 @@ export default {
 
 .icons {
   height: 125px;
-  margin: 25px;
-  padding: 10px;
-  width: 125px;
+  margin: 30px;
+  padding: 3px;
+  width: 120px;
 }
 
 .caps {
@@ -76,7 +76,7 @@ export default {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   padding: 10px;
-  margin: 50px;
+  margin: 55px;
 }
 
 .capstwo {
@@ -84,7 +84,7 @@ export default {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;  
   padding: 5px;
-  margin: 50px;
+  margin: 52.5px;
 }
 
 </style>

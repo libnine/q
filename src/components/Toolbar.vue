@@ -80,7 +80,7 @@ body {
         .url {
             color: rgba(71, 61, 139, 0.801);
             font-weight: 700;
-            transition: font-weight 100ms ease-out;
+            transition: font-weight 100ms ease-in-out;
         }
 
         text-decoration: none;
@@ -109,6 +109,7 @@ body {
 
 .url {
     font-weight: 100;
+    transition: font-weight 100ms ease-in-out;
 }
 
 </style>
