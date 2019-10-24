@@ -67,24 +67,24 @@ export default {
 .icons {
   height: 125px;
   margin: 30px;
-  padding: 3px;
+  padding: 8px;
   width: 120px;
 }
 
 .caps {
   color:dodgerblue;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 16px;
+  padding: 5px;
   margin: 55px;
 }
 
 .capstwo {
   color:dodgerblue;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;  
-  padding: 5px;
-  margin: 52.5px;
+  padding: 3px;
+  margin: 50px;
 }
 
 </style>
