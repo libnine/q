@@ -66,8 +66,8 @@ export default {
 
 .icons {
   height: 125px;
-  margin: 30px;
-  padding: 8px;
+  margin: 2.5%;
+  padding: 5;
   width: 120px;
 }
 
@@ -76,15 +76,15 @@ export default {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   padding: 5px;
-  margin: 55px;
+  margin: 65px;
 }
 
 .capstwo {
   color:dodgerblue;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;  
-  padding: 3px;
-  margin: 50px;
+  padding: 5px;
+  margin: 60px;
 }
 
 </style>
