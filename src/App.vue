@@ -36,11 +36,10 @@ export default {
 
 <style>
 #app {
-  display: inline;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  width: 95%;
 }
 
 .fade-enter-active,
