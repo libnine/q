@@ -3,8 +3,8 @@
     <transition 
       name="slide-fade">
       <headertmp id="hdr"/>
-      <toolbar id="tb"/>
     </transition>
+    <toolbar id="tb"/>
     <transition
       name="fade"
       mode="out-in">
