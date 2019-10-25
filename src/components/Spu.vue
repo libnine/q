@@ -24,7 +24,7 @@ export default {
 
 a, a:visited {
   color: dodgerblue;
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   text-decoration: none;
 }
