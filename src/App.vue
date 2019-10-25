@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <headertmp id="hdr"/>
-    <toolbar id="tb"/>
     <transition
       name="fade"
       mode="out-in">
+      <headertmp id="hdr"/>
+      <toolbar id="tb"/>
       <router-view />
     </transition>
   </div>
