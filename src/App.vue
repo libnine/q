@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <transition 
-      name="slide-fade">
-      <headertmp id="hdr"/>
-    </transition>
+    <headertmp id="hdr"/>
     <toolbar id="tb"/>
     <transition
       name="fade"
@@ -46,7 +43,7 @@ export default {
 
 html {
   margin-left: calc(100vw - 100%); 
-}
+  }
 
 .fade-enter-active,
 .fade-leave-active {
@@ -58,20 +55,6 @@ html {
 .fade-enter,
 .fade-leave-active {
   opacity: 0
-}
-
-.slide-fade-enter-active {
-  transition: all 1.1s ease;
-}
-
-.slide-fade-leave-active {
-  transition: all 1.1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
-
-.slide-fade-enter, 
-.slide-fade-leave-to {
-  transform: translateX(10px);
-  opacity: 0;
 }
 
 #hdr {

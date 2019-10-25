@@ -13,14 +13,13 @@
     </div>
     <div class="column">
       <div class="l">
-        <!-- <a href="#/intuit">Intuit</a> -->
         <router-link to="/intuit">Intuit</router-link>
       </div>
       <div class="l">
-        <a href="#/goodwill">Goodwill</a>
+        <router-link to="/goodwill">Goodwill</router-link>
       </div>
       <div class="l">
-        <a href="#/scf">SCF</a>
+        <router-link to="/scf">SCF</router-link>
       </div>
     </div>
     <div class="column-letter">
@@ -36,13 +35,13 @@
     </div>
     <div class="column">
       <div class="l">
-        <a href="#/spu">Spu</a>
+        <router-link to="/spu">Spu</router-link>
       </div>
       <div class="l">
-        <a href="#/ornet">Ornet</a>
+        <router-link to="/ornet">Ornet</router-link>
       </div>
       <div class="l">
-        <a href="#/malgo">Malgo</a>
+        <router-link to="/malgo">Malgo</router-link>
       </div>
     </div>
   </div>
