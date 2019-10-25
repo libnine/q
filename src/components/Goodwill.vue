@@ -2,7 +2,8 @@
   <div id="box">
     <div class="column">
       <p>
-        
+        <i>G</i>oodwill <i>I</i>ndustries <i>I</i>nternational, or Goodwill, is one of the most well known nonprofit organizations in the world. 
+        You're probably familiar with them as a donations center, but they're actually much more than that. They also focus on skill building, helping people find jobs, education, and training.<br><br>
       </p>
     </div>
     <div id="git">
