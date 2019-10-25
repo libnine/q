@@ -40,12 +40,13 @@ export default {
   display: inline-block;
   margin: 0px;
   height: 400px;
-  width: 500px;
+  width: 450px;
 }
 
 .column-img {
   display: inline;
   margin: 0px;
+  margin-right: 2.5%;
 }
 
 img {
@@ -53,7 +54,7 @@ img {
   float: left;
   left: 5%;
   position: relative;
-  margin-top: 3.5%;
+  margin-top: 2%;
   height: 375px;
   width: 375px;
   transition: .6s ease-in-out;
@@ -66,7 +67,7 @@ img:hover {
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
 }

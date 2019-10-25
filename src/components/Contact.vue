@@ -74,14 +74,14 @@ export default {
 .caps {
   color:dodgerblue;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   padding: 5px;
   margin: 55px;
 }
 
 .capstwo {
   color:dodgerblue;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Montserrat', sans-serif;  
   padding: 3px;
   margin: 50px;

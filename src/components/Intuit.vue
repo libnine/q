@@ -79,7 +79,7 @@ a.block:hover, a:visited.block:hover {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
 }
 </style>

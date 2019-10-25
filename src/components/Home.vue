@@ -32,7 +32,7 @@ body {
   display: inline-block;
   margin: 0;
   font-weight: 200;
-  font-size: 16;
+  font-size: 16px;
 }
 
 h3 {
