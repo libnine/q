@@ -111,5 +111,4 @@ body {
     font-weight: 100;
     transition: font-weight 100ms ease-in-out;
 }
-
 </style>
