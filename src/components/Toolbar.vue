@@ -6,7 +6,7 @@
         </defs>
     </svg>
     <div class="container">
-        <a class="btn" href="#/"><span class="url">home</span>
+        <a class="btn" href="#/"><span class="url" ref="home">home</span>
             <svg class="button-stroke" viewBox="0 2 101 3">
                 <use href="#line"></use>
             </svg>
@@ -14,7 +14,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/projects"><span class="url">projects</span>
+        <a class="btn" href="#/projects"><span class="url" ref="projects">projects</span>
             <svg class="button-stroke" viewBox="0 2 120 1">
                 <use href="#line"></use>
             </svg>
@@ -22,7 +22,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/music"><span class="url">music</span>
+        <a class="btn" href="#/music"><span class="url" ref="music">music</span>
             <svg class="button-stroke" viewBox="0 2 115 2">
                 <use href="#line"></use>
             </svg>
@@ -30,7 +30,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/about"><span class="url">about</span>
+        <a class="btn" href="#/about"><span class="url" ref="about">about</span>
             <svg class="button-stroke" viewBox="0 2 170 7">
                 <use href="#line"></use>
             </svg>
@@ -38,7 +38,7 @@
                 <use href="#line"></use>
             </svg>
         </a>
-        <a class="btn" href="#/contact"><span class="url">connect</span>
+        <a class="btn" href="#/contact"><span class="url" ref="connect">connect</span>
             <svg class="button-stroke" viewBox="0 1 85 8">
                 <use href="#line"></use>
             </svg>
@@ -52,6 +52,29 @@
 
 <script>
 export default {
+  data() {
+    return {
+
+    }
+  },
+
+  methods: {
+    glitch() {
+      // https://codepen.io/derekjp/pen/ozEdgK/
+
+      let about = this.$refs.about
+      let home = this.$refs.home
+      let projects = this.$refs.projects
+      let music = this.$refs.music
+      let connect = this.$refs.connect
+
+      const r = (x, y) => {
+        return (Math.random() * (y - x)) + x
+      }
+
+    }
+  },
+
   name: 'Toolbar'
 }
 </script>
