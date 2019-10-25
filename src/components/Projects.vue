@@ -1,50 +1,48 @@
 <template>
-  <div id="app">
-    <div class="box">
-      <div class="column-letter">
-        <div class="l">
-          <span class="letter">I</span>
-        </div>
-        <div class="l">
-          <span class="letter">G</span>
-        </div>
-        <div class="l">
-          <span class="letter">S</span>
-        </div>
+  <div class="box">
+    <div class="column-letter">
+      <div class="l">
+        <span class="letter">I</span>
       </div>
-      <div class="column">
-        <div class="l">
-          <!-- <a href="#/intuit">Intuit</a> -->
-          <router-link to="/intuit">Intuit</router-link>
-        </div>
-        <div class="l">
-          <a href="#/goodwill">Goodwill</a>
-        </div>
-        <div class="l">
-          <a href="#/scf">SCF</a>
-        </div>
+      <div class="l">
+        <span class="letter">G</span>
       </div>
-      <div class="column-letter">
-        <div class="l">
-          <span class="letter">S</span>
-        </div>
-        <div class="l">
-          <span class="letter">O</span>
-        </div>
-        <div class="l">
-          <span class="letter">M</span>
-        </div>
+      <div class="l">
+        <span class="letter">S</span>
       </div>
-      <div class="column">
-        <div class="l">
-          <a href="#/spu">Spu</a>
-        </div>
-        <div class="l">
-          <a href="#/ornet">Ornet</a>
-        </div>
-        <div class="l">
-          <a href="#/malgo">Malgo</a>
-        </div>
+    </div>
+    <div class="column">
+      <div class="l">
+        <!-- <a href="#/intuit">Intuit</a> -->
+        <router-link to="/intuit">Intuit</router-link>
+      </div>
+      <div class="l">
+        <a href="#/goodwill">Goodwill</a>
+      </div>
+      <div class="l">
+        <a href="#/scf">SCF</a>
+      </div>
+    </div>
+    <div class="column-letter">
+      <div class="l">
+        <span class="letter">S</span>
+      </div>
+      <div class="l">
+        <span class="letter">O</span>
+      </div>
+      <div class="l">
+        <span class="letter">M</span>
+      </div>
+    </div>
+    <div class="column">
+      <div class="l">
+        <a href="#/spu">Spu</a>
+      </div>
+      <div class="l">
+        <a href="#/ornet">Ornet</a>
+      </div>
+      <div class="l">
+        <a href="#/malgo">Malgo</a>
       </div>
     </div>
   </div>
@@ -59,11 +57,6 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-#app {
-  width:1000px;
-  margin:100px auto;
-}
 
 a, a:visited {
   color: dodgerblue;
