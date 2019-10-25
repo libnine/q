@@ -14,7 +14,8 @@
       </div>
       <div class="column">
         <div class="l">
-          <a href="#/intuit">Intuit</a>
+          <!-- <a href="#/intuit">Intuit</a> -->
+          <router-link to="/intuit">Intuit</router-link>
         </div>
         <div class="l">
           <a href="#/goodwill">Goodwill</a>
