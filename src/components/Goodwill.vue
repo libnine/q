@@ -3,7 +3,9 @@
     <div class="column">
       <p>
         <i>G</i>oodwill <i>I</i>ndustries <i>I</i>nternational, or Goodwill, is one of the most well known nonprofit organizations in the world. 
-        You're probably familiar with them as a donations center, but they're actually much more than that. They also focus on skill building, helping people find jobs, education, and training.<br><br>
+        You're probably familiar with them as a donations center, but they're actually much more than that. They also focus on skill building, education, and training.<br><br>
+        With so many moving parts in the business, the data warehouse was pretty in depth. I joined the team in the spring of 2018 to create and maintain many of the backend processes and help with reporting. The technology stack was mostly Microsoft products such as SQL Server, SSIS, SSRS (reporting), along with some in-house tools.<br><br>
+        By fall, I was tasked with optimizing our file ingestion process across all of our environments. The original process had a SSIS job on loop, scanning the FTP folder for new files being dropped every five minutes. The new process, made with Python, was created to 'listen' for new files, which resulted in less resources and memory errors.<br><br>
       </p>
     </div>
     <div id="git">
