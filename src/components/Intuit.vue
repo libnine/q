@@ -69,7 +69,7 @@ a.block:hover, a:visited.block:hover {
 .column {
   display: inline-block;
   margin: 0;
-  width: 700px;
+  width: 600px;
   margin-left: 2.5%;
 }
 
