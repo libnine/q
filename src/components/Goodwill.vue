@@ -72,7 +72,7 @@ a.block:hover, a:visited.block:hover {
 }
 
 #git {
-  padding: 5%;
+  padding: 2.5%;
 }
 
 p {

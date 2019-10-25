@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <headertmp id="hdr"/>
-    <toolbar id="tb"/>
+    <transition 
+      name="slide-fade">
+      <headertmp id="hdr"/>
+      <toolbar id="tb"/>
+    </transition>
     <transition
       name="fade"
       mode="out-in">
@@ -20,8 +23,10 @@ export default {
     'toolbar': Toolbar
   },
 
-  created() {
-    // document.title = 'Matt Gorzka'
+  data () {
+    return {
+      show: true
+    }
   },
 
   name: 'App'
@@ -40,7 +45,7 @@ export default {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 0.7s;
+  transition-duration: 1.1s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
@@ -48,6 +53,18 @@ export default {
 .fade-enter,
 .fade-leave-active {
   opacity: 0
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
 }
 
 #hdr {
