@@ -25,7 +25,7 @@ export default {
 
 a, a:visited {
   color: dodgerblue;
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   text-decoration: none;
 }
@@ -68,7 +68,7 @@ a.block:hover, a:visited.block:hover {
 .column {
   display: inline-block;
   margin: 0;
-  width: 400px;
+  width: 500px;
 }
 
 #git {

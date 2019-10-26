@@ -54,7 +54,7 @@ img {
   float: left;
   left: 5%;
   position: relative;
-  margin-top: 2%;
+  margin-top: 3.5%;
   height: 375px;
   width: 375px;
   transition: .6s ease-in-out;

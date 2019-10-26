@@ -47,7 +47,7 @@ html {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 1.1s;
+  transition-duration: 0.8s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
