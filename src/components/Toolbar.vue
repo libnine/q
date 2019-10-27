@@ -60,7 +60,6 @@ export default {
 
   methods: {
     glitch() {
-      // https://codepen.io/derekjp/pen/ozEdgK/
 
       let about = this.$refs.about
       let home = this.$refs.home
@@ -132,6 +131,7 @@ body {
 
 .url {
     font-weight: 100;
-    transition: font-weight 100ms ease-in-out;
+    transition: font-weight .25s ease-in-out;
 }
+
 </style>

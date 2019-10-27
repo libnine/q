@@ -20,11 +20,23 @@ export default {
 }
 
 #firstname {
-  color:darkslateblue
+  color:darkslateblue;
+  transition: color .7s ease-in-out;
+}
+
+#firstname:hover {
+  color:dodgerblue;
+  transition: color .7s ease-in-out;
 }
 
 #lastname {
-  color:dodgerblue
+  color:dodgerblue;
+  transition: color .7s ease-in-out;
+}
+
+#lastname:hover {
+  color:darkslateblue;
+  transition: color .7s ease-in-out;
 }
 
 div.slide-left {
@@ -32,7 +44,7 @@ div.slide-left {
   overflow:hidden;
 }
 div.slide-left h1 {
-  animation: slide-left 0.7s;
+  animation: slide-left 0.25s;
 }
 
 @keyframes slide-left {

@@ -2,8 +2,8 @@
   <div id="box">
     <div class="column">
       <p>
-        Spu, also known as <i>spoo</i>, is a contract for the S&P 500 which trades on the Chicago Mercantile Exchange.<br><br>
-        Spu is a CLI (command line interface) that pulls securities data from various sources. It was developed in Go & Python.<br><br>
+        Spu, also known as <i>spoo</i>, is the contract for the S&P 500 which trades on the Chicago Mercantile Exchange.<br><br>
+        Spu is a CLI (command line interface) that pulls securities data from various sources. It was developed in Go & Python. The idea came to mind after years of frustration with visiting too many different URLs for different information pertaining to symbols. Spu is now my go-to tool for actionable information in the market.<br><br>
         Use spu to access short interest, earnings dates, headlines, robinhood data, options data, trending tickers, upcoming economic events, and more.
       </p>
     </div>
@@ -71,7 +71,7 @@ a.block:hover, a:visited.block:hover {
 }
 
 #git {
-  padding: 10%;
+  padding: 2.5%;
 }
 
 p {

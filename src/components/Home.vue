@@ -4,7 +4,7 @@
       <hello />
     </div>
     <div>
-      <h3></h3>
+      <h3><span id="box-text">contact</span> <span id="box-text">github</span></h3>
     </div>
   </div>
 </template>
@@ -28,6 +28,10 @@ export default {
 </script>
 
 <style scoped>
+#box-text {
+  padding: 1%;
+}
+
 body {
   display: inline-block;
   margin: 0;
@@ -37,7 +41,8 @@ body {
 
 h3 {
   font-weight: 100;
-  font-size: 16;
+  font-size: 28px;
+  margin-top: 7.5%;
 }
 
 #content {
