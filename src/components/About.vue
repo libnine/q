@@ -53,11 +53,13 @@ img {
   border-radius: 8px;
   float: left;
   left: 5%;
+  opacity: 1;
   position: relative;
   margin-top: 3.5%;
   height: 375px;
   width: 375px;
   transition: .6s ease-in-out;
+  animation: appear 1.5s;
 }
 
 img:hover {
@@ -70,5 +72,10 @@ p {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
+}
+
+@keyframes appear {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 </style>

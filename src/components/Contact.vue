@@ -2,7 +2,7 @@
   <div class="parent">
     <div class="row">
       <ul>
-        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in" @mouseover="hoverfunc()"></i></a></li>
         <li><a href="#"><i class="far fa-envelope-open"></i></a></li>
         <li><a href="#"><i class="fab fa-skype"></i></a></li>
       </ul>
@@ -14,7 +14,12 @@
         <li><a href="#"><i class="fab fa-soundcloud"></i></a></li>
       </ul>
     </div>
-    <div class="row text">
+    <div class="row">
+      <ul>
+        <li><a href="#"><i class="fab fa-github"></i></a></li>
+      </ul>
+    </div>
+    <div class="text">
       <h1>{{ text }}</h1>
     </div>
   </div>
@@ -25,6 +30,12 @@ export default {
   data () {
     return {
       text: "hey now eeryone!"
+    }
+  },
+  
+  methods: {
+    hoverfunc() {
+      this.text = "hey"
     }
   }
 }
@@ -106,7 +117,9 @@ ul li:hover:before {
 }
 
 .text {
-  padding: 5%;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
   margin-right: 8%;
 }
 
