@@ -76,7 +76,7 @@ body {
 
 #quote-author {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 200;
   float: right;
   animation: appear 6.5s;
 }
@@ -88,11 +88,6 @@ body {
   font-size: 28px;
   opacity: 1;
   animation: appear 3s;  
-}
-
-@keyframes appear-author {
-  from { bottom: 0%; }
-  to { bottom: }
 }
 
 @keyframes appear {
