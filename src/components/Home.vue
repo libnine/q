@@ -58,20 +58,12 @@ body {
   font-size: 16px;
 }
 
-#author {
-  width: 75%;
-}
-
 #content {
   padding-top: 3%;
 }
 
-#quote {
-  display: inline-block;
-  margin: 0 auto;
-  margin-top: 10%;
-  text-align: center;
-  width: 40%
+#author {
+  width: 75%;
 }
 
 #quote-author {
@@ -79,6 +71,15 @@ body {
   font-weight: 200;
   float: right;
   animation: appear 6.5s;
+}
+
+#quote {
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 20%;
+  margin-top: 10%;
+  text-align: right;
+  width: 30%
 }
 
 #quote-text {
